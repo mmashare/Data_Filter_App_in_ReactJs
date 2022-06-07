@@ -1,0 +1,31 @@
+
+.home {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.listandfilterpanel,.filterpanel,.list{
+    overflow-y: auto;
+
+}
+
+.listandfilterpanel{
+    display: flex;
+    
+    
+}
+
+.filterpanel{
+  
+    flex-basis: 350px;
+    padding: 1rem;
+   
+}
+.list{
+   
+    display: flex;
+    flex-basis:930px;
+    padding: 1rem;
+    
+}

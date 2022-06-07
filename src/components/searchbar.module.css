@@ -1,0 +1,28 @@
+
+
+.searchbarWrap{
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.26);
+    padding: 1.5rem 1rem;
+}
+
+.searchicon{
+    margin-left: 0.7rem;
+    color: rgba(0, 0, 0, 0.26);
+}
+
+.searchbarWrap input{
+    font-size: 1.5rem;
+    width: 55%;
+    border: none;
+    outline: none;
+    font-family: 'Raleway', sans-serif;
+    
+
+}
+
+.searchbarWrap input::placeholder{
+    color:  rgba(0, 0, 0, 0.26);
+
+}
